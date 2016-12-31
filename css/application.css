@@ -93,17 +93,17 @@ strong, b {
 
 .badge {
   display: inline-block;
-  padding: 0.45em 0.5em;
+  padding: 10px 22px;
   font-weight: bold;
   text-align: center;
-  color: black;
+  color: #1d2740;
   background: white;
-  border: 2px solid black;
-  -webkit-border-radius: 1.5em;
-  -moz-border-radius: 1.5em;
-  -ms-border-radius: 1.5em;
-  -o-border-radius: 1.5em;
-  border-radius: 1.5em;
+  border: 2px solid #1d2740;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
 }
 .badge.invert {
   background: black;
@@ -119,6 +119,7 @@ strong, b {
   font-family: 'Montserrat', sans-serif;
   border-radius: 2px;
   box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.6);
+  font-size: 1.4em;
 }
 .box .box_head {
   min-height: 10px;
@@ -160,6 +161,7 @@ strong, b {
 .box .box_body {
   padding: 10px 35px 50px 35px;
   color: white;
+  line-height: 1.8em;
 }
 
 .bt {
@@ -230,7 +232,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-  width: 200px;
+  max-width: 820px;
   height: 35px;
   padding: 8px 6px;
   margin: 0;
@@ -295,8 +297,8 @@ select {
 }
 
 textarea {
-  min-width: 820px;
-  height: 150px;
+  width: 820px;
+  height: 300px;
 }
 
 .label {
@@ -430,14 +432,43 @@ table {
   height: 30px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 920px) {
   /* to avoid the adjustment of fonts on iOS devices you should keep this line */
   * {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
   }
 
-  .content {
-    min-width: 400px;
+  .site-title {
+    max-width: 190px;
+    font-size: 0.52em;
   }
+
+  .box {
+    font-size: 1em;
+    width: 95%;
+    margin: 2% 2.5%;
+  }
+
+  .content {
+    display: block;
+  }
+
+  form {
+    width: 96%;
+    margin: 2% 1.5%;
+    height: 300px;
+  }
+
+  textarea {
+    width: 98%;
+    margin: 2%;
+    height: 300px;
+  }
+
+  body {
+    margin-bottom: 40px;
+  }
+
+
 }

@@ -1,8 +1,8 @@
 <?php
 
 class Database {
-	private $host		= "localhost";
-	private $user		= "root";
+	private $host		  = "localhost";
+	private $user		  = "root";
 	private $password	= "root";
 	private $db_name	= "myblog";
 

@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 .site-title {
   border: 2px solid white;
   width: 400px;
   margin: 0 auto;
   padding: 10px 62px;
 
+}
+
+.date_stamp {
+  display: inline;
+  font-size: 12px;
+  color: white;
+  text-transform: lowercase;
+}
+
+.text-space {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.delete-post {
+  float: right;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.delete-post:hover {
+  opacity: 1;
 }
