@@ -1,0 +1,18 @@
+// --- component: label ------------------------------------------------------------------------------------------------
+
+.label
+{
+  display: inline-block;
+  padding: .15em .4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: $ui-base-color-opposite;
+  color: $ui-base-color;
+  border: $ui-border-width solid $ui-base-color;
+
+  &.invert
+  {
+    background: $ui-base-color;
+    color: $ui-base-color-opposite;
+  }
+}

@@ -1,0 +1,66 @@
+// --- component: table (global) ---------------------------------------------------------------------------------------
+
+table
+{
+  width: 100%;
+  position: relative;
+  line-height: 1;
+}
+
+// --- component: table ------------------------------------------------------------------------------------------------
+
+.table
+{
+  margin: 0 0 5px;
+  border-collapse: separate;
+  border: $ui-border-width solid $ui-base-color;
+
+  thead
+  {
+    tr
+    {
+      th
+      {
+        padding: 10px 8px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: $ui-base-color;
+        color: $ui-base-color-opposite;
+        border-bottom: $ui-border-width solid $ui-base-color;
+        border-left: $ui-border-width solid $ui-base-color;
+
+        &:first-child
+        {
+          border-left: none;
+        }
+      }
+    }
+  }
+
+  tbody
+  {
+    tr
+    {
+      td
+      {
+        padding: 9px;
+        background: $ui-base-color-opposite;
+        border-left: $ui-border-width solid $ui-base-color;
+        border-top: $ui-border-width solid $ui-base-color;
+
+        &:first-child
+        {
+          border-left: none;
+        }
+      }
+
+      &:first-child
+      {
+        td
+        {
+          border-top: none;
+        }
+      }
+    }
+  }
+}

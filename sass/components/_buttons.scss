@@ -1,0 +1,67 @@
+// --- component: button -----------------------------------------------------------------------------------------------
+
+.bt
+{
+  height: $ui-button-height;
+  position: relative;
+  padding: 0.55em 1em 0.5em;
+  margin: 0;
+  font: bold 12px/1.5em $ui-font-family;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  border: $ui-border-width solid $ui-base-color;
+  color: $ui-base-color;
+  background: transparent;
+  @include box-sizing(border-box);
+  @include border-radius(0);
+  @include appearance(none);
+
+  &:hover,
+  &.active
+  {
+    background: $ui-base-color;
+    color: $ui-base-color-opposite;
+  }
+
+  // --- bt disabled ---------------------------------------------------------------------------------------------------
+
+  &.disabled
+  {
+    opacity: .3;
+    cursor: default;
+
+    &:hover
+    {
+      background: inherit;
+      color: inherit;
+    }
+  }
+
+  // --- small ---------------------------------------------------------------------------------------------------------
+
+  &.bt_small
+  {
+    font-size: 10px;
+    height: 30px;
+  }
+
+  // --- medium --------------------------------------------------------------------------------------------------------
+
+  &.bt_medium
+  {
+    font-size: 14px;
+    height: 40px;
+  }
+
+  // --- large ---------------------------------------------------------------------------------------------------------
+
+  &.bt_large
+  {
+    font-size: 16px;
+    height: 45px;
+  }
+}

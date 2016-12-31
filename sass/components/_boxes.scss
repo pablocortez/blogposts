@@ -1,0 +1,69 @@
+// --- component: box --------------------------------------------------------------------------------------------------
+
+.box
+{
+  margin-bottom: 20px;
+  background: $ui-base-color-opposite;
+  border: $ui-border-width solid $ui-base-color;
+
+  .box_head
+  {
+    min-height: 20px;
+    padding: 8px 15px;
+    position: relative;
+    background: $ui-base-color;
+    color: $ui-base-color-opposite;
+
+    #{headers(all)}
+    {
+      padding: 0;
+      margin: 0;
+      font: bold 12px/1.5em $ui-font-family;
+      text-transform: uppercase;
+    }
+
+    .actions
+    {
+      position: absolute;
+      top: 2px;
+      right: 5px;
+
+      .bt
+      {
+        color: $ui-base-color-opposite;
+        border-color: $ui-base-color-opposite;
+
+        &:hover
+        {
+          color: $ui-base-color;
+          background: $ui-base-color-opposite;
+        }
+      }
+    }
+  }
+
+  .box_foot
+  {
+    padding: 0 5px 5px;
+    text-align: right;
+  }
+
+  .box_head,
+  .box_foot
+  {
+    .actions
+    {
+      .bt
+      {
+        height: 30px;
+        font-size: 10px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .box_body
+  {
+    padding: 15px;
+  }
+}
