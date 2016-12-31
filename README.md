@@ -6,7 +6,7 @@ In an attempt to learn PHP, here's a "blog" with the basic CRUD functions. So fa
 ### Preview:
 
 
-![New Blog Posts](http://i.imgur.com/rzCnMNn.png)
+![New Blog Posts](http://i.imgur.com/8dISrU3.png)
 
 ---
 
