@@ -12,8 +12,7 @@ In an attempt to learn PHP, here's a "blog" with the basic CRUD functions. So fa
 
 ### Credits
 
-#### View it online: [demo](http://paranoida.github.com/simple-ui/)
-Supported by Selleo web &amp; mobile software development house - [http://selleo.com](http://selleo.com)
+#### Simple-UI [demo](http://paranoida.github.com/simple-ui/) by Selleo web &amp; mobile software development house - [http://selleo.com](http://selleo.com)
 
 ### License:
 
